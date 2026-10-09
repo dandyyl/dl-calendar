@@ -1,0 +1,43 @@
+name: Sync Notion Calendar
+
+on:
+  # 每天 UTC 16:00 = 北京时间 0:00 自动跑一次
+  schedule:
+    - cron: '0 16 * * *'
+  # 随时可在 Actions 页面手动点 "Run workflow" 立即同步
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Generate fitness.ics from Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID }}
+          TRAIN_TIME: ${{ vars.TRAIN_TIME }}
+        run: python scripts/generate_ics.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- fitness.ics; then
+            echo "📭 fitness.ics 无变化，跳过提交"
+          else
+            git add fitness.ics
+            git commit -m "chore: sync fitness.ics from Notion"
+            git push
+            echo "📤 已推送更新"
+          fi
