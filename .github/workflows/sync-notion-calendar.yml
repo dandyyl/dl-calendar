@@ -25,7 +25,7 @@ jobs:
       - name: Generate fitness.ics from Notion
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
           TRAIN_TIME: ${{ vars.TRAIN_TIME }}
         run: python scripts/generate_ics.py
 
