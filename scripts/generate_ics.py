@@ -312,7 +312,7 @@ def main():
     env_file = load_dotenv()
 
     token = (args.token or env("NOTION_TOKEN")).strip()
-    db_id = (args.db or env("NOTION_DATABASE_ID") or DEFAULT_DB).strip()
+    db_id = (args.db or env("NOTION_DATABASE_ID")).strip()
 
     # 输出路径：相对路径一律以仓库根目录为基准，
     # 这样无论从哪个目录调用（Actions / 双击 / 终端），都稳定写到仓库里
