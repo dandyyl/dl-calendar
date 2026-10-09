@@ -5,8 +5,10 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:🏋️ 新手增肌 · 腹部+上肢 4 周
 X-WR-TIMEZONE:Asia/Shanghai
-X-WR-CALDESC:Notion 健身计划的 12 次训练课，每次含双重提
- 醒：训练开始 + 练后补蛋白质
+X-WR-CALDESC:Notion 健身计划训练课，双重提醒：训练开始 +
+  练后补蛋白质
+X-PUBLISHED-TTL:PT12H
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
 BEGIN:VTIMEZONE
 TZID:Asia/Shanghai
 BEGIN:STANDARD
@@ -18,23 +20,22 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:3f42827093cb814a81fdd49f80f2418f-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261012T120000Z
-DTEND:20261012T123000Z
+DTSTAMP:20261009T181001Z
+DTSTART:20261011T233000Z
+DTEND:20261012T000000Z
 SUMMARY:🏋️ W1-1 周一 A课 推+核心抗伸展
 DESCRIPTION:第1周 · A课·推+核心抗伸展\n\n【今日动作清单
- 】\n· 地板哑铃卧推 2×8-10\n· 俯卧撑（跪姿或标准）2×
- 8-10\n· 哑铃站姿肩推 2×8-10\n· 哑铃侧平举 2×8-10\n· 哑
- 铃过顶臂屈伸 2×8-10\n· 健腹轮·靠墙 2×8\n· 平板支撑 2
- ×30 秒\n\n组数基准：上肢 2 组 / 核心 2 组\n离心节奏：2
-  秒（健腹轮 3 秒）\n目标强度：RIR 3-4（每组做完后还
- 剩几次力竭）\n健腹轮档位：靠墙\n\n【健腹轮要点】靠
- 墙推出：面向墙站立，双手握轮推向墙面，身体前倾后
- 收回。腰一旦塌就立刻停止该组。\n\n【练后】1 小时内
- 补充蛋白质 30-40g，并在 Notion 打卡日志里记录实际组数
- 与 RIR。\nNotion 原页面：https://app.notion.com/3f42827093cb814a81
- fdd49f80f2418f
-URL:https://app.notion.com/3f42827093cb814a81fdd49f80f2418f
+ 】\n· 地板哑铃卧推 2×12\n· 俯卧撑（跪姿或标准） 2×1
+ 2\n· 哑铃站姿肩推 2×12\n· 哑铃侧平举 2×12\n· 哑铃过
+ 顶臂屈伸 2×12\n· 平板支撑 2×30 秒\n\n组数基准：上肢 2
+  组 / 核心 2 组\n离心节奏：2 秒（健腹轮 3 秒）\n目标
+ 强度：RIR 3-4（每组做完后还剩几次力竭）\n健腹轮档位
+ ：靠墙\n\n【健腹轮要点】靠墙推出：面向墙站立，双
+ 手握轮推向墙面，身体前倾后收回。腰一旦塌就立刻停
+ 止该组。\n\n【练后】1 小时内补充蛋白质 30-40g，并在 N
+ otion 打卡日志里记录实际组数与 RIR。\nNotion 原页面：ht
+ tps://app.notion.com/p/W1-1-A-3f42827093cb814a81fdd49f80f2418f
+URL:https://app.notion.com/p/W1-1-A-3f42827093cb814a81fdd49f80f2418f
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -53,23 +54,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb814aa1e2f7bdc0a563b6-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261014T120000Z
-DTEND:20261014T123000Z
+DTSTAMP:20261009T181001Z
+DTSTART:20261013T233000Z
+DTEND:20261014T000000Z
 SUMMARY:🏋️ W1-2 周三 B课 拉+核心抗旋转
 DESCRIPTION:第1周 · B课·拉+核心抗旋转\n\n【今日动作清单
- 】\n· 俯身哑铃划船 2×8-10\n· 单臂哑铃划船 2×8-10（每
- 侧）\n· 哑铃反向飞鸟 2×8-10\n· 哑铃二头弯举 2×8-10\n·
-  健腹轮·靠墙 2×6\n· 俄罗斯转体 2×16\n· 侧平板支撑 2
- ×20 秒\n\n组数基准：上肢 2 组 / 核心 2 组\n离心节奏：2
-  秒（健腹轮 3 秒）\n目标强度：RIR 3-4（每组做完后还
- 剩几次力竭）\n健腹轮档位：靠墙\n\n【健腹轮要点】靠
- 墙推出：面向墙站立，双手握轮推向墙面，身体前倾后
- 收回。腰一旦塌就立刻停止该组。\n\n【练后】1 小时内
- 补充蛋白质 30-40g，并在 Notion 打卡日志里记录实际组数
- 与 RIR。\nNotion 原页面：https://app.notion.com/3f42827093cb814aa1
- e2f7bdc0a563b6
-URL:https://app.notion.com/3f42827093cb814aa1e2f7bdc0a563b6
+ 】\n· 俯身哑铃划船 2×12\n· 单臂哑铃划船 2×12\n· 哑铃
+ 反向飞鸟 2×12\n· 哑铃二头弯举 2×12\n· 俄罗斯转体 2×1
+ 6\n· 侧平板支撑 2×20 秒\n\n组数基准：上肢 2 组 / 核心 
+ 2 组\n离心节奏：2 秒（健腹轮 3 秒）\n目标强度：RIR 3-4
+ （每组做完后还剩几次力竭）\n健腹轮档位：靠墙\n\n【
+ 健腹轮要点】靠墙推出：面向墙站立，双手握轮推向墙
+ 面，身体前倾后收回。腰一旦塌就立刻停止该组。\n\n
+ 【练后】1 小时内补充蛋白质 30-40g，并在 Notion 打卡日
+ 志里记录实际组数与 RIR。\nNotion 原页面：https://app.notio
+ n.com/p/W1-2-B-3f42827093cb814aa1e2f7bdc0a563b6
+URL:https://app.notion.com/p/W1-2-B-3f42827093cb814aa1e2f7bdc0a563b6
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -88,23 +88,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb814c8de8f26fc2559194-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261016T120000Z
-DTEND:20261016T123000Z
+DTSTAMP:20261009T181001Z
+DTSTART:20261015T233000Z
+DTEND:20261016T000000Z
 SUMMARY:🏋️ W1-3 周五 A课 推+核心抗伸展
 DESCRIPTION:第1周 · A课·推+核心抗伸展\n\n【今日动作清单
- 】\n· 地板哑铃卧推 2×8-10\n· 俯卧撑（跪姿或标准）2×
- 8-10\n· 哑铃站姿肩推 2×8-10\n· 哑铃侧平举 2×8-10\n· 哑
- 铃过顶臂屈伸 2×8-10\n· 健腹轮·靠墙 2×8\n· 平板支撑 2
- ×30 秒\n\n组数基准：上肢 2 组 / 核心 2 组\n离心节奏：2
-  秒（健腹轮 3 秒）\n目标强度：RIR 3-4（每组做完后还
- 剩几次力竭）\n健腹轮档位：靠墙\n\n【健腹轮要点】靠
- 墙推出：面向墙站立，双手握轮推向墙面，身体前倾后
- 收回。腰一旦塌就立刻停止该组。\n\n【练后】1 小时内
- 补充蛋白质 30-40g，并在 Notion 打卡日志里记录实际组数
- 与 RIR。\nNotion 原页面：https://app.notion.com/3f42827093cb814c8d
- e8f26fc2559194
-URL:https://app.notion.com/3f42827093cb814c8de8f26fc2559194
+ 】\n· 地板哑铃卧推 2×12\n· 俯卧撑（跪姿或标准） 2×1
+ 2\n· 哑铃站姿肩推 2×12\n· 哑铃侧平举 2×12\n· 哑铃过
+ 顶臂屈伸 2×12\n· 平板支撑 2×30 秒\n\n组数基准：上肢 2
+  组 / 核心 2 组\n离心节奏：2 秒（健腹轮 3 秒）\n目标
+ 强度：RIR 3-4（每组做完后还剩几次力竭）\n健腹轮档位
+ ：靠墙\n\n【健腹轮要点】靠墙推出：面向墙站立，双
+ 手握轮推向墙面，身体前倾后收回。腰一旦塌就立刻停
+ 止该组。\n\n【练后】1 小时内补充蛋白质 30-40g，并在 N
+ otion 打卡日志里记录实际组数与 RIR。\nNotion 原页面：ht
+ tps://app.notion.com/p/W1-3-A-3f42827093cb814c8de8f26fc2559194
+URL:https://app.notion.com/p/W1-3-A-3f42827093cb814c8de8f26fc2559194
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -123,23 +122,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb81238b23f288a901ae8c-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261019T120000Z
-DTEND:20261019T123000Z
+DTSTAMP:20261009T181001Z
+DTSTART:20261018T233000Z
+DTEND:20261019T000000Z
 SUMMARY:🏋️ W2-1 周一 B课 拉+核心抗旋转
 DESCRIPTION:第2周 · B课·拉+核心抗旋转\n\n【今日动作清单
- 】\n· 俯身哑铃划船 2×10-12\n· 单臂哑铃划船 2×10-12（
- 每侧）\n· 哑铃反向飞鸟 2×10-12\n· 哑铃二头弯举 2×10-1
- 2\n· 健腹轮·上斜 2×6\n· 俄罗斯转体 2×16\n· 侧平板支
- 撑 2×20 秒\n\n组数基准：上肢 2 组 / 核心 2 组\n离心节
- 奏：2 秒（健腹轮 3 秒）\n目标强度：RIR 2-3（每组做完
- 后还剩几次力竭）\n健腹轮档位：上斜\n\n【健腹轮要点
- 】上斜推出：跪姿，把健腹轮推向一个抬高的平面（沙
- 发/床沿/台阶），幅度比靠墙大。\n\n【练后】1 小时内
- 补充蛋白质 30-40g，并在 Notion 打卡日志里记录实际组数
- 与 RIR。\nNotion 原页面：https://app.notion.com/3f42827093cb81238b
- 23f288a901ae8c
-URL:https://app.notion.com/3f42827093cb81238b23f288a901ae8c
+ 】\n· 俯身哑铃划船 2×12\n· 单臂哑铃划船 2×12\n· 哑铃
+ 反向飞鸟 2×12\n· 哑铃二头弯举 2×12\n· 俄罗斯转体 2×1
+ 6\n· 侧平板支撑 2×20 秒\n\n组数基准：上肢 2 组 / 核心 
+ 2 组\n离心节奏：2 秒（健腹轮 3 秒）\n目标强度：RIR 2-3
+ （每组做完后还剩几次力竭）\n健腹轮档位：上斜\n\n【
+ 健腹轮要点】上斜推出：跪姿，把健腹轮推向抬高的平
+ 面（沙发/床沿/台阶），幅度比靠墙大。\n\n【练后】1 
+ 小时内补充蛋白质 30-40g，并在 Notion 打卡日志里记录实
+ 际组数与 RIR。\nNotion 原页面：https://app.notion.com/p/W2-1-B-
+ 3f42827093cb81238b23f288a901ae8c
+URL:https://app.notion.com/p/W2-1-B-3f42827093cb81238b23f288a901ae8c
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -158,23 +156,22 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb813c8f83ce2447b99c59-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261021T120000Z
-DTEND:20261021T123000Z
+DTSTAMP:20261009T181001Z
+DTSTART:20261020T233000Z
+DTEND:20261021T000000Z
 SUMMARY:🏋️ W2-2 周三 A课 推+核心抗伸展
 DESCRIPTION:第2周 · A课·推+核心抗伸展\n\n【今日动作清单
- 】\n· 地板哑铃卧推 2×10-12\n· 俯卧撑（跪姿或标准）2
- ×10-12\n· 哑铃站姿肩推 2×10-12\n· 哑铃侧平举 2×10-12\n·
-  哑铃过顶臂屈伸 2×10-12\n· 健腹轮·上斜 2×8\n· 平板支
- 撑 2×30 秒\n\n组数基准：上肢 2 组 / 核心 2 组\n离心节
- 奏：2 秒（健腹轮 3 秒）\n目标强度：RIR 2-3（每组做完
- 后还剩几次力竭）\n健腹轮档位：上斜\n\n【健腹轮要点
- 】上斜推出：跪姿，把健腹轮推向一个抬高的平面（沙
- 发/床沿/台阶），幅度比靠墙大。\n\n【练后】1 小时内
- 补充蛋白质 30-40g，并在 Notion 打卡日志里记录实际组数
- 与 RIR。\nNotion 原页面：https://app.notion.com/3f42827093cb813c8f
- 83ce2447b99c59
-URL:https://app.notion.com/3f42827093cb813c8f83ce2447b99c59
+ 】\n· 地板哑铃卧推 2×12\n· 俯卧撑（跪姿或标准） 2×1
+ 2\n· 哑铃站姿肩推 2×12\n· 哑铃侧平举 2×12\n· 哑铃过
+ 顶臂屈伸 2×12\n· 平板支撑 2×30 秒\n\n组数基准：上肢 2
+  组 / 核心 2 组\n离心节奏：2 秒（健腹轮 3 秒）\n目标
+ 强度：RIR 2-3（每组做完后还剩几次力竭）\n健腹轮档位
+ ：上斜\n\n【健腹轮要点】上斜推出：跪姿，把健腹轮
+ 推向抬高的平面（沙发/床沿/台阶），幅度比靠墙大。\
+ n\n【练后】1 小时内补充蛋白质 30-40g，并在 Notion 打卡
+ 日志里记录实际组数与 RIR。\nNotion 原页面：https://app.no
+ tion.com/p/W2-2-A-3f42827093cb813c8f83ce2447b99c59
+URL:https://app.notion.com/p/W2-2-A-3f42827093cb813c8f83ce2447b99c59
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
@@ -193,30 +190,30 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb81d492a4e11be573f111-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261023T120000Z
-DTEND:20261023T123000Z
-SUMMARY:🏋️ W2-3 周五 B课 拉+核心抗旋转
+DTSTAMP:20261009T181001Z
+DTSTART:20261022T233000Z
+DTEND:20261023T000000Z
+SUMMARY:🏋️ W2-3 · 周五 B课 拉+核心抗旋转
 DESCRIPTION:第2周 · B课·拉+核心抗旋转\n\n【今日动作清单
- 】\n· 俯身哑铃划船 2×12\n· 单臂哑铃划船 2×10（每侧
- ）\n· 哑铃反向飞鸟 2×15\n· 哑铃二头弯举 2×12\n· 健腹
- 轮·上斜 2×8\n· 俄罗斯转体 2×16\n· 侧平板支撑 2×25 秒
- \n\n组数基准：上肢 2 组 / 核心 2 组\n离心节奏：2 秒（
- 健腹轮 3 秒）\n目标强度：RIR 2-3（每组做完后还剩几次
- 力竭）\n健腹轮档位：上斜\n\n【健腹轮要点】上斜推出
- ：跪姿，把健腹轮推向一个抬高的平面（沙发/床沿/台
- 阶），幅度比靠墙大。\n\n【练后】1 小时内补充蛋白质
-  30-40g，并在 Notion 打卡日志里记录实际组数与 RIR。\nNot
- ion 原页面：https://app.notion.com/3f42827093cb81d492a4e11be573f111
-URL:https://app.notion.com/3f42827093cb81d492a4e11be573f111
+ 】\n· 俯身哑铃划船 2×12\n· 单臂哑铃划船 2×10每侧\n· 
+ 哑铃反向飞鸟 2×15\n· 哑铃二头弯举 2×12\n· 健腹轮·上
+ 斜 2×8\n· 俄罗斯转体 2×16\n· 侧平板支撑 2×25秒\n\n组
+ 数基准：上肢 2 组 / 核心 2 组\n离心节奏：2 秒（健腹
+ 轮 3 秒）\n目标强度：RIR 2-3（每组做完后还剩几次力竭
+ ）\n健腹轮档位：上斜\n\n【健腹轮要点】上斜推出：跪
+ 姿，把健腹轮推向抬高的平面（沙发/床沿/台阶），幅
+ 度比靠墙大。\n\n【练后】1 小时内补充蛋白质 30-40g，
+ 并在 Notion 打卡日志里记录实际组数与 RIR。\nNotion 原页
+ 面：https://app.notion.com/p/W2-3-B-3f42827093cb81d492a4e11be573f111
+URL:https://app.notion.com/p/W2-3-B-3f42827093cb81d492a4e11be573f111
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
-DESCRIPTION:🏋️ 训练时间到：🏋️ W2-3 周五 B课 拉+核心
- 抗旋转
+DESCRIPTION:🏋️ 训练时间到：🏋️ W2-3 · 周五 B课 拉+核
+ 心抗旋转
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -227,31 +224,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb81e4a06df26b76564a82-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261026T120000Z
-DTEND:20261026T124000Z
-SUMMARY:🏋️ W3-1 周一 A课 推+核心抗伸展
+DTSTAMP:20261009T181001Z
+DTSTART:20261025T233000Z
+DTEND:20261026T001000Z
+SUMMARY:🏋️ W3-1 · 周一 A课 推+核心抗伸展
 DESCRIPTION:第3周 · A课·推+核心抗伸展\n\n【今日动作清单
- 】\n· 地板哑铃卧推 3×12\n· 俯卧撑（跪姿或标准）3×10
- \n· 哑铃站姿肩推 3×12\n· 哑铃侧平举 3×15\n· 哑铃过顶
- 臂屈伸 3×12\n· 健腹轮·跪姿半程 3×6\n· 平板支撑 3×30 
- 秒\n\n组数基准：上肢 3 组 / 核心 3 组（本周起 +1 组）\
- n离心节奏：3 秒（健腹轮 3 秒）\n目标强度：RIR 2（每
- 组做完后还剩几次力竭）\n健腹轮档位：跪姿半程\n\n【
- 健腹轮要点】跪姿半程：只推到身体与地面约 45°，推
- 到一半就收回。别贪远，全程腰不能塌。\n\n【练后】1 
- 小时内补充蛋白质 30-40g，并在 Notion 打卡日志里记录实
- 际组数与 RIR。\nNotion 原页面：https://app.notion.com/3f4282709
- 3cb81e4a06df26b76564a82
-URL:https://app.notion.com/3f42827093cb81e4a06df26b76564a82
+ 】\n· 地板哑铃卧推 3×12\n· 俯卧撑（跪姿或标准） 3×1
+ 0\n· 哑铃站姿肩推 3×12\n· 哑铃侧平举 3×15\n· 哑铃过
+ 顶臂屈伸 3×12\n· 健腹轮·跪姿半程 3×6\n· 平板支撑 3×
+ 30秒\n\n组数基准：上肢 3 组 / 核心 3 组（本周起 +1 组
+ ）\n离心节奏：3 秒（健腹轮 3 秒）\n目标强度：RIR 2（
+ 每组做完后还剩几次力竭）\n健腹轮档位：跪姿半程\n\n
+ 【健腹轮要点】跪姿半程：只推到身体与地面约 45° 就
+ 收回。别贪远，全程腰不能塌。\n\n【练后】1 小时内补
+ 充蛋白质 30-40g，并在 Notion 打卡日志里记录实际组数与
+  RIR。\nNotion 原页面：https://app.notion.com/p/W3-1-A-3f42827093cb
+ 81e4a06df26b76564a82
+URL:https://app.notion.com/p/W3-1-A-3f42827093cb81e4a06df26b76564a82
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
-DESCRIPTION:🏋️ 训练时间到：🏋️ W3-1 周一 A课 推+核心
- 抗伸展
+DESCRIPTION:🏋️ 训练时间到：🏋️ W3-1 · 周一 A课 推+核
+ 心抗伸展
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -262,31 +259,30 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb81678bced409ef80ae34-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261028T120000Z
-DTEND:20261028T124000Z
-SUMMARY:🏋️ W3-2 周三 B课 拉+核心抗旋转
+DTSTAMP:20261009T181001Z
+DTSTART:20261027T233000Z
+DTEND:20261028T001000Z
+SUMMARY:🏋️ W3-2 · 周三 B课 拉+核心抗旋转
 DESCRIPTION:第3周 · B课·拉+核心抗旋转\n\n【今日动作清单
- 】\n· 俯身哑铃划船 3×12\n· 单臂哑铃划船 3×10（每侧
- ）\n· 哑铃反向飞鸟 3×15\n· 哑铃二头弯举 3×12\n· 健腹
- 轮·跪姿半程 3×7\n· 俄罗斯转体 3×16\n· 侧平板支撑 3×
- 25 秒\n\n组数基准：上肢 3 组 / 核心 3 组\n离心节奏：3 
- 秒（健腹轮 3 秒）\n目标强度：RIR 2（每组做完后还剩
- 几次力竭）\n健腹轮档位：跪姿半程\n\n【健腹轮要点】
- 跪姿半程：只推到身体与地面约 45°，推到一半就收回
- 。别贪远，全程腰不能塌。\n\n【练后】1 小时内补充蛋
- 白质 30-40g，并在 Notion 打卡日志里记录实际组数与 RIR
- 。\nNotion 原页面：https://app.notion.com/3f42827093cb81678bced409e
- f80ae34
-URL:https://app.notion.com/3f42827093cb81678bced409ef80ae34
+ 】\n· 俯身哑铃划船 3×12\n· 单臂哑铃划船 3×10每侧\n· 
+ 哑铃反向飞鸟 3×15\n· 哑铃二头弯举 3×12\n· 健腹轮·跪
+ 姿半程 3×7\n· 俄罗斯转体 3×16\n· 侧平板支撑 3×25秒\n\
+ n组数基准：上肢 3 组 / 核心 3 组\n离心节奏：3 秒（健
+ 腹轮 3 秒）\n目标强度：RIR 2（每组做完后还剩几次力
+ 竭）\n健腹轮档位：跪姿半程\n\n【健腹轮要点】跪姿半
+ 程：只推到身体与地面约 45° 就收回。别贪远，全程腰
+ 不能塌。\n\n【练后】1 小时内补充蛋白质 30-40g，并在 N
+ otion 打卡日志里记录实际组数与 RIR。\nNotion 原页面：ht
+ tps://app.notion.com/p/W3-2-B-3f42827093cb81678bced409ef80ae34
+URL:https://app.notion.com/p/W3-2-B-3f42827093cb81678bced409ef80ae34
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
-DESCRIPTION:🏋️ 训练时间到：🏋️ W3-2 周三 B课 拉+核心
- 抗旋转
+DESCRIPTION:🏋️ 训练时间到：🏋️ W3-2 · 周三 B课 拉+核
+ 心抗旋转
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -297,31 +293,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb81dbaf9cde4b71a5d007-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261030T120000Z
-DTEND:20261030T124000Z
-SUMMARY:🏋️ W3-3 周五 A课 推+核心抗伸展
+DTSTAMP:20261009T181001Z
+DTSTART:20261029T233000Z
+DTEND:20261030T001000Z
+SUMMARY:🏋️ W3-3 · 周五 A课 推+核心抗伸展
 DESCRIPTION:第3周 · A课·推+核心抗伸展\n\n【今日动作清单
- 】\n· 地板哑铃卧推 3×12\n· 俯卧撑（跪姿或标准）3×10
- \n· 哑铃站姿肩推 3×12\n· 哑铃侧平举 3×15\n· 哑铃过顶
- 臂屈伸 3×12\n· 健腹轮·跪姿半程 3×8\n· 平板支撑 3×35 
- 秒\n\n组数基准：上肢 3 组 / 核心 3 组（酸痛重则降为 2
-  组 C课）\n离心节奏：3 秒（健腹轮 3 秒）\n目标强度：
- RIR 2（每组做完后还剩几次力竭）\n健腹轮档位：跪姿
- 半程\n\n【健腹轮要点】跪姿半程：只推到身体与地面
- 约 45°，推到一半就收回。别贪远，全程腰不能塌。\n\n
- 【练后】1 小时内补充蛋白质 30-40g，并在 Notion 打卡日
- 志里记录实际组数与 RIR。\nNotion 原页面：https://app.notio
- n.com/3f42827093cb81dbaf9cde4b71a5d007
-URL:https://app.notion.com/3f42827093cb81dbaf9cde4b71a5d007
+ 】\n· 地板哑铃卧推 3×12\n· 俯卧撑（跪姿或标准） 3×1
+ 0\n· 哑铃站姿肩推 3×12\n· 哑铃侧平举 3×15\n· 哑铃过
+ 顶臂屈伸 3×12\n· 健腹轮·跪姿半程 3×8\n· 平板支撑 3×
+ 35秒\n\n组数基准：上肢 3 组 / 核心 3 组（酸痛重则降为
+  2 组 C课）\n离心节奏：3 秒（健腹轮 3 秒）\n目标强度
+ ：RIR 2（每组做完后还剩几次力竭）\n健腹轮档位：跪
+ 姿半程\n\n【健腹轮要点】跪姿半程：只推到身体与地
+ 面约 45° 就收回。别贪远，全程腰不能塌。\n\n【练后
+ 】1 小时内补充蛋白质 30-40g，并在 Notion 打卡日志里记
+ 录实际组数与 RIR。\nNotion 原页面：https://app.notion.com/p/W
+ 3-3-A-3f42827093cb81dbaf9cde4b71a5d007
+URL:https://app.notion.com/p/W3-3-A-3f42827093cb81dbaf9cde4b71a5d007
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
-DESCRIPTION:🏋️ 训练时间到：🏋️ W3-3 周五 A课 推+核心
- 抗伸展
+DESCRIPTION:🏋️ 训练时间到：🏋️ W3-3 · 周五 A课 推+核
+ 心抗伸展
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -332,31 +328,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb815e915de462c1dc3c7f-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261102T120000Z
-DTEND:20261102T124200Z
-SUMMARY:🏋️ W4-1 周一 B课 拉+核心抗旋转
+DTSTAMP:20261009T181001Z
+DTSTART:20261101T233000Z
+DTEND:20261102T001200Z
+SUMMARY:🏋️ W4-1 · 周一 B课 拉+核心抗旋转
 DESCRIPTION:第4周 · B课·拉+核心抗旋转\n\n【今日动作清单
- 】\n· 俯身哑铃划船 3×15\n· 单臂哑铃划船 3×12（每侧
- ）\n· 哑铃反向飞鸟 3×15\n· 哑铃二头弯举 3×15\n· 健腹
- 轮·跪姿全程 3×6\n· 俄罗斯转体 3×20\n· 侧平板支撑 3×
- 30 秒\n\n组数基准：上肢 3 组 / 核心 3 组\n离心节奏：3-4
-  秒（健腹轮 3 秒）\n目标强度：RIR 1-2（每组做完后还
- 剩几次力竭）\n健腹轮档位：跪姿全程\n\n【健腹轮要点
- 】跪姿全程：躯干推到接近与地面平行，再靠腹部把自
- 己拉回来。4 周内的最高难度。\n\n【练后】1 小时内补
- 充蛋白质 30-40g，并在 Notion 打卡日志里记录实际组数与
-  RIR。\nNotion 原页面：https://app.notion.com/3f42827093cb815e915de
- 462c1dc3c7f
-URL:https://app.notion.com/3f42827093cb815e915de462c1dc3c7f
+ 】\n· 俯身哑铃划船 3×15\n· 单臂哑铃划船 3×12每侧\n· 
+ 哑铃反向飞鸟 3×15\n· 哑铃二头弯举 3×15\n· 健腹轮·跪
+ 姿全程 3×6\n· 俄罗斯转体 3×20\n· 侧平板支撑 3×30秒\n\
+ n组数基准：上肢 3 组 / 核心 3 组\n离心节奏：3-4 秒（
+ 健腹轮 3 秒）\n目标强度：RIR 1-2（每组做完后还剩几次
+ 力竭）\n健腹轮档位：跪姿全程\n\n【健腹轮要点】跪姿
+ 全程：躯干推到接近与地面平行，再靠腹部把自己拉回
+ 来。4 周内最高难度。\n\n【练后】1 小时内补充蛋白质 
+ 30-40g，并在 Notion 打卡日志里记录实际组数与 RIR。\nNoti
+ on 原页面：https://app.notion.com/p/W4-1-B-3f42827093cb815e915de462c
+ 1dc3c7f
+URL:https://app.notion.com/p/W4-1-B-3f42827093cb815e915de462c1dc3c7f
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
-DESCRIPTION:🏋️ 训练时间到：🏋️ W4-1 周一 B课 拉+核心
- 抗旋转
+DESCRIPTION:🏋️ 训练时间到：🏋️ W4-1 · 周一 B课 拉+核
+ 心抗旋转
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -367,31 +363,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb816688b6db59c2d0e7dd-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261104T120000Z
-DTEND:20261104T124200Z
-SUMMARY:🏋️ W4-2 周三 A课 推+核心抗伸展
+DTSTAMP:20261009T181001Z
+DTSTART:20261103T233000Z
+DTEND:20261104T001200Z
+SUMMARY:🏋️ W4-2 · 周三 A课 推+核心抗伸展
 DESCRIPTION:第4周 · A课·推+核心抗伸展\n\n【今日动作清单
- 】\n· 地板哑铃卧推 3×15\n· 俯卧撑（跪姿或标准）3×12
- \n· 哑铃站姿肩推 3×15\n· 哑铃侧平举 3×15\n· 哑铃过顶
- 臂屈伸 3×15\n· 健腹轮·跪姿全程 3×7\n· 平板支撑 3×40 
- 秒\n\n组数基准：上肢 3 组 / 核心 3 组\n离心节奏：3-4 
+ 】\n· 地板哑铃卧推 3×15\n· 俯卧撑（跪姿或标准） 3×1
+ 2\n· 哑铃站姿肩推 3×15\n· 哑铃侧平举 3×15\n· 哑铃过
+ 顶臂屈伸 3×15\n· 健腹轮·跪姿全程 3×7\n· 平板支撑 3×
+ 40秒\n\n组数基准：上肢 3 组 / 核心 3 组\n离心节奏：3-4 
  秒（健腹轮 3 秒）\n目标强度：RIR 1-2（每组做完后还剩
  几次力竭）\n健腹轮档位：跪姿全程\n\n【健腹轮要点】
  跪姿全程：躯干推到接近与地面平行，再靠腹部把自己
- 拉回来。4 周内的最高难度。\n\n【练后】1 小时内补充
- 蛋白质 30-40g，并在 Notion 打卡日志里记录实际组数与 RI
- R。\nNotion 原页面：https://app.notion.com/3f42827093cb816688b6db59
- c2d0e7dd
-URL:https://app.notion.com/3f42827093cb816688b6db59c2d0e7dd
+ 拉回来。4 周内最高难度。\n\n【练后】1 小时内补充蛋
+ 白质 30-40g，并在 Notion 打卡日志里记录实际组数与 RIR
+ 。\nNotion 原页面：https://app.notion.com/p/W4-2-A-3f42827093cb8166
+ 88b6db59c2d0e7dd
+URL:https://app.notion.com/p/W4-2-A-3f42827093cb816688b6db59c2d0e7dd
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
-DESCRIPTION:🏋️ 训练时间到：🏋️ W4-2 周三 A课 推+核心
- 抗伸展
+DESCRIPTION:🏋️ 训练时间到：🏋️ W4-2 · 周三 A课 推+核
+ 心抗伸展
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -402,31 +398,31 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3f42827093cb8116a456edeb2374a2fa-fitness-workout
-DTSTAMP:20261009T144650Z
-DTSTART:20261106T120000Z
-DTEND:20261106T124200Z
-SUMMARY:🏋️ W4-3 周五 B课 拉+核心抗旋转（收官）
+DTSTAMP:20261009T181001Z
+DTSTART:20261105T233000Z
+DTEND:20261106T001200Z
+SUMMARY:🏋️ W4-3 · 周五 B课 拉+核心抗旋转（收官）
 DESCRIPTION:第4周 · B课·拉+核心抗旋转\n\n【今日动作清单
- 】\n· 俯身哑铃划船 3×15\n· 单臂哑铃划船 3×12（每侧
- ）\n· 哑铃反向飞鸟 3×15\n· 哑铃二头弯举 3×15\n· 健腹
- 轮·跪姿全程 3×8\n· 俄罗斯转体 3×20\n· 侧平板支撑 3×
- 30 秒\n\n组数基准：上肢 3 组 / 核心 3 组（酸痛重则降
- 为 2 组 C课）\n离心节奏：3-4 秒（健腹轮 3 秒）\n目标
- 强度：RIR 1-2（每组做完后还剩几次力竭）\n健腹轮档位
- ：跪姿全程\n\n【健腹轮要点】跪姿全程：躯干推到接
- 近与地面平行，再靠腹部把自己拉回来。4 周内的最高
- 难度。\n\n【练后】1 小时内补充蛋白质 30-40g，并在 Noti
- on 打卡日志里记录实际组数与 RIR。\nNotion 原页面：https
- ://app.notion.com/3f42827093cb8116a456edeb2374a2fa
-URL:https://app.notion.com/3f42827093cb8116a456edeb2374a2fa
+ 】\n· 俯身哑铃划船 3×15\n· 单臂哑铃划船 3×12每侧\n· 
+ 哑铃反向飞鸟 3×15\n· 哑铃二头弯举 3×15\n· 健腹轮·跪
+ 姿全程 3×8\n· 俄罗斯转体 3×20\n· 侧平板支撑 3×30秒\n\
+ n组数基准：上肢 3 组 / 核心 3 组（酸痛重则降为 2 组 C
+ 课）\n离心节奏：3-4 秒（健腹轮 3 秒）\n目标强度：RIR 
+ 1-2（每组做完后还剩几次力竭）\n健腹轮档位：跪姿全
+ 程\n\n【健腹轮要点】跪姿全程：躯干推到接近与地面
+ 平行，再靠腹部把自己拉回来。4 周内最高难度。\n\n【
+ 练后】1 小时内补充蛋白质 30-40g，并在 Notion 打卡日志
+ 里记录实际组数与 RIR。\nNotion 原页面：https://app.notion.c
+ om/p/W4-3-B-3f42827093cb8116a456edeb2374a2fa
+URL:https://app.notion.com/p/W4-3-B-3f42827093cb8116a456edeb2374a2fa
 CATEGORIES:健身,训练
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:PT0M
-DESCRIPTION:🏋️ 训练时间到：🏋️ W4-3 周五 B课 拉+核心
- 抗旋转（收官）
+DESCRIPTION:🏋️ 训练时间到：🏋️ W4-3 · 周五 B课 拉+核
+ 心抗旋转（收官）
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
