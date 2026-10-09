@@ -3,21 +3,14 @@
 """
 Notion → ICS 生成器（零第三方依赖，Python 3.8+ 标准库即可运行）
 
-架构位置：
-    Notion API  ──拉数据──▶  本脚本  ──生成──▶  fitness.ics  ──托管──▶  iOS 订阅
 
 两种运行模式：
-    本地模式   双击 run.ps1，或 python scripts/generate_ics.py
+  
     云端模式   GitHub Actions / Cron 定时跑，生成后自动提交推送
 
 配置优先级：命令行参数 > 环境变量 > .env 文件 > 内置默认值
 
-环境变量：
-  NOTION_TOKEN          Notion 集成密钥（ntn_xxx / secret_xxx）
-  NOTION_DATABASE_ID    训练表数据库 ID
-  TRAIN_TIME            训练开始时间 HH:MM，默认 20:00
-  PROTEIN_DELAY_MIN     练后多久提醒补蛋白质，默认 60 分钟
-  OUTFILE               输出路径，默认 fitness.ics
+
 """
 
 import argparse
@@ -33,7 +26,7 @@ from datetime import datetime, timedelta, timezone
 NOTION_API = "https://api.notion.com/v1"
 NOTION_VERSION = "2022-06-28"
 
-DEFAULT_DB = "5a7a040b-8e66-40b3-bda0-0461199fc35d"   # 📅 每周训练表
+DEFAULT_DB = ""   # 📅 每周训练表
 
 # 中国全境无夏令时，固定 +08:00，避免依赖 tzdata（Windows Python 常缺 tzdata）
 CST = timezone(timedelta(hours=8))
@@ -301,27 +294,6 @@ def verify(content):
     return n_ev, n_al, problems
 
 
-# ---------------- 离线演练数据（--mock 用，不联网验证整条链路） ----------------
-MOCK = [
-    dict(date="2026-10-12", title="W1-1 · 周一 A课 推+核心抗伸展",
-         kind="A课·推+核心抗伸展", week="第1周", sets="上肢 2 组 / 核心 2 组",
-         ecc="1-2 秒（健腹轮 3 秒）", rir="3-4", wheel="靠墙", dur=30,
-         ex=["地板哑铃卧推 2×12", "俯卧撑（跪姿或标准）2×10", "哑铃站姿肩推 2×12",
-             "哑铃侧平举 2×15", "哑铃过顶臂屈伸 2×12", "健腹轮·靠墙 2×6", "平板支撑 2×30 秒"],
-         url="https://www.notion.so/mock-w1-1", uid="mock000000000000000000000000000001"),
-    dict(date="2026-10-26", title="W3-1 · 周一 A课 推+核心抗伸展",
-         kind="A课·推+核心抗伸展", week="第3周", sets="上肢 3 组 / 核心 3 组",
-         ecc="3 秒（健腹轮 3 秒）", rir="2", wheel="跪姿半程", dur=40,
-         ex=["地板哑铃卧推 3×12", "俯卧撑（跪姿或标准）3×10", "哑铃站姿肩推 3×12",
-             "哑铃侧平举 3×15", "哑铃过顶臂屈伸 3×12", "健腹轮·跪姿半程 3×6", "平板支撑 3×30 秒"],
-         url="https://www.notion.so/mock-w3-1", uid="mock000000000000000000000000000002"),
-    dict(date="2026-11-06", title="W4-3 · 周五 B课 拉+核心抗旋转（收官）",
-         kind="B课·拉+核心抗旋转", week="第4周", sets="上肢 3 组 / 核心 3 组",
-         ecc="3-4 秒（健腹轮 3 秒）", rir="1-2", wheel="跪姿全程", dur=42,
-         ex=["俯身哑铃划船 3×15", "单臂哑铃划船 3×12 每侧", "哑铃反向飞鸟 3×15",
-             "哑铃二头弯举 3×15", "健腹轮·跪姿全程 3×8", "俄罗斯转体 3×20", "侧平板支撑 3×30 秒"],
-         url="https://www.notion.so/mock-w4-3", uid="mock000000000000000000000000000003"),
-]
 
 
 # ---------------- 主流程 ----------------
